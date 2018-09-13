@@ -551,7 +551,7 @@ public Action:CheckAroundTriggers(Handle:timer)
 		pos1[2] = 302.0;
 		if (CheckforBots(pos1, 100.0) && !MapTriggerTwo)
 		{
-			PrintToChatAll("\x04[AutoTrigger] \x015Ãëºó»Ö¸´¡£");
+			PrintToChatAll("\x04[AutoTrigger] \x015ÃƒÃ«ÂºÃ³Â»Ã–Â¸Â´Â¡Â£");
 			CreateTimer(5.0, ResumeBotsActions);
 			MapTriggerTwo = true;
 		}
@@ -689,7 +689,7 @@ public Action:CheckAroundTriggers(Handle:timer)
 		// to: -5408.7 858.6 696.4
 		if (CheckforBots(posx, 200.0) && !WarpTrigger)
 		{
-			PrintToChatAll("\x04[AutoTrigger] \x01Bots will be repositioned to avoid getting stuck...\x01");
+			PrintToChatAll("\x04[AutoTrigger] \x01Thanks to the Scavenge exclusive ladder on the ship, the bots will instead be warped to the top of the pile of crap. This will result in the panic event.\x01");
 			
 			new Handle:posdata = CreateDataPack();
 			WritePackFloat(posdata, -5408.7);
